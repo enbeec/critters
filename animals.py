@@ -3,12 +3,12 @@ from datetime import date
 # WALKING
 
 class Alpaca:
-	def __init__(self):
+	def __init__(self, name, species):
 		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
-		self.name = ""
-		self.species = ""
+		self.name = name
+		self.species = species
 
 class Jackass:
 	def __init__(self):
@@ -52,7 +52,7 @@ class GiantSnail:
 		self.name = ""
 		self.species = ""
 
-class Earthworm:
+class Worm:
 	def __init__(self):
 		# no specific details by default
 		self.date_added = date.Today()
@@ -60,7 +60,7 @@ class Earthworm:
 		self.name = ""
 		self.species = ""
 
-class Anaconda:
+class Snake:
 	def __init__(self):
 		# no specific details by default
 		self.date_added = date.Today()
@@ -68,13 +68,13 @@ class Anaconda:
 		self.name = ""
 		self.species = ""
 
-class LeglessLizard:
+class :
 	def __init__(self):
 		# no specific details by default
 		self.date_added = date.Today()
 		self.slithering = True
 		self.name = ""
-		self.species = ""
+		self.species = "UNKNOWN"
 
 class MysteriousSlime:
 	def __init__(self):
@@ -94,7 +94,7 @@ class SpottedEel:
 		self.name = ""
 		self.species = ""
 
-class AlbinoTigerOscar:
+class Koi:
 	def __init__(self):
 		# no specific details by default
 		self.date_added = date.Today()
@@ -102,7 +102,7 @@ class AlbinoTigerOscar:
 		self.name = ""
 		self.species = ""
 
-class RainbowTrout:
+class Trout:
 	def __init__(self):
 		# no specific details by default
 		self.date_added = date.Today()
