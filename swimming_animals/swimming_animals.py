@@ -2,7 +2,6 @@ from datetime import date
 
 class SpottedEel:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -10,7 +9,6 @@ class SpottedEel:
 
 class Koi:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -18,7 +16,6 @@ class Koi:
 
 class Trout:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -26,7 +23,6 @@ class Trout:
 
 class Seahorse:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -34,7 +30,6 @@ class Seahorse:
 
 class Piranha:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
