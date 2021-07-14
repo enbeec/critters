@@ -14,6 +14,10 @@ vv = PettingZoo("Varmint Village")
 # let's get some crowd pleasers in there
 alfie = Alpaca("Alfie", "Huacaya Alpaca", "alpaca feed", "morning")
 vv.animals.append(alfie)
+peter = Pony("Peter", "Shetland Pony", "oats and hay", "midday")
+vv.animals.append(peter)
+gilbert = Goat("Gilbert", "Mountain Goat", "literally anything", "afternoon")
+vv.animals.append(gilbert)
 
 for animal in vv.animals:
 	print(f'You can find {animal.name} the {animal.species} in {vv.attraction_name}')
