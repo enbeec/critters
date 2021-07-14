@@ -8,8 +8,7 @@ varmint_village = PettingZoo("Varmint Village")
 belly_bay = SnakePit("Belly Bay")
 sunny_shores = Wetlands("Sunny Shores")
 
-# let's get some crowd pleasers in there
-alfie = Alpaca("Alfie", "huacaya alpaca", "alpaca feed", "morning")
+alfie = Alpaca("Alfie", "huacaya alpaca", "alpaca feed", 123456, "morning")
 varmint_village.animals.append(alfie)
 peter = Pony("Peter", "shetland pony", "oats and hay", "midday")
 varmint_village.animals.append(peter)
@@ -30,4 +29,3 @@ for attraction in [varmint_village, belly_bay, sunny_shores]:
 
 # separator -- put your test stuff below this
 print()
-greg.feed()
