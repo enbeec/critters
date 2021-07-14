@@ -1,0 +1,43 @@
+from datetime import date
+
+class Alpaca:
+	def __init__(self, name, species):
+		# no specific details by default
+		self.date_added = date.Today()
+		self.walking = True
+		self.name = name
+		self.species = species
+
+class Jackass:
+	def __init__(self, name, species):
+		# no specific details by default
+		self.date_added = date.Today()
+		self.walking = True
+		self.name = name
+		self.species = species
+
+
+class Pony:
+	def __init__(self, name, species):
+		# no specific details by default
+		self.date_added = date.Today()
+		self.walking = True
+		self.name = name
+		self.species = species
+
+class Goat:
+	def __init__(self, name, species):
+		# no specific details by default
+		self.date_added = date.Today()
+		self.walking = True
+		self.name = name
+		self.species = species
+
+class Hedgehog:
+	def __init__(self, name, species):
+		# no specific details by default
+		self.date_added = date.Today()
+		self.walking = True
+		self.requiredSpeed = "Fast"
+		self.name = name
+		self.species = species
