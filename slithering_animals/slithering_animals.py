@@ -2,7 +2,6 @@ from datetime import date
 
 class GiantSnail:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -10,7 +9,6 @@ class GiantSnail:
 
 class Worm:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -18,7 +16,6 @@ class Worm:
 
 class Snake:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -26,7 +23,6 @@ class Snake:
 
 class LeglessLizard:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -34,7 +30,6 @@ class LeglessLizard:
 
 class MysteriousSlime:
 	def __init__(self, name):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name

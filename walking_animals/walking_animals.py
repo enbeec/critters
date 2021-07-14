@@ -2,7 +2,6 @@ from datetime import date
 
 class Alpaca:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -10,7 +9,6 @@ class Alpaca:
 
 class Jackass:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -19,7 +17,6 @@ class Jackass:
 
 class Pony:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -27,7 +24,6 @@ class Pony:
 
 class Goat:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -35,7 +31,6 @@ class Goat:
 
 class Hedgehog:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.requiredSpeed = "Fast"
