@@ -9,6 +9,9 @@ class Alpaca:
 		# shift defaults to "unassigned"
 		self.shift = shift or "unassigned"
 
+	def feed(self):
+		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
 class Jackass:
 	def __init__(self, name, species, shift):
 		self.date_added = date.Today()
