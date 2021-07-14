@@ -5,7 +5,7 @@ from datetime import date
 class Alpaca:
 	def __init__(self):
 		# no specific details by default
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = ""
 		self.species = ""
@@ -13,7 +13,7 @@ class Alpaca:
 class Jackass:
 	def __init__(self):
 		# no specific details by default
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = ""
 		self.species = ""
@@ -21,7 +21,7 @@ class Jackass:
 class Pony:
 	def __init__(self):
 		# no specific details by default
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = ""
 		self.species = ""
@@ -29,7 +29,7 @@ class Pony:
 class Goat:
 	def __init__(self):
 		# no specific details by default
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = ""
 		self.species = ""
@@ -37,7 +37,7 @@ class Goat:
 class Hedgehog:
 	def __init__(self):
 		# no specific details by default
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = ""
 		self.species = ""
@@ -47,7 +47,7 @@ class Hedgehog:
 class GiantSnail:
 	def __init__(self):
 		# no specific details by default
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.slithering = True
 		self.name = ""
 		self.species = ""
@@ -55,7 +55,7 @@ class GiantSnail:
 class Earthworm:
 	def __init__(self):
 		# no specific details by default
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.slithering = True
 		self.name = ""
 		self.species = ""
@@ -63,7 +63,7 @@ class Earthworm:
 class Anaconda:
 	def __init__(self):
 		# no specific details by default
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.slithering = True
 		self.name = ""
 		self.species = ""
@@ -71,7 +71,7 @@ class Anaconda:
 class LeglessLizard:
 	def __init__(self):
 		# no specific details by default
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.slithering = True
 		self.name = ""
 		self.species = ""
@@ -79,7 +79,7 @@ class LeglessLizard:
 class MysteriousSlime:
 	def __init__(self):
 		# no specific details by default
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.slithering = True
 		self.name = ""
 		self.species = ""
@@ -89,7 +89,7 @@ class MysteriousSlime:
 class SpottedEel:
 	def __init__(self):
 		# no specific details by default
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.swimming = True
 		self.name = ""
 		self.species = ""
@@ -97,7 +97,7 @@ class SpottedEel:
 class AlbinoTigerOscar:
 	def __init__(self):
 		# no specific details by default
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.swimming = True
 		self.name = ""
 		self.species = ""
@@ -105,7 +105,7 @@ class AlbinoTigerOscar:
 class RainbowTrout:
 	def __init__(self):
 		# no specific details by default
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.swimming = True
 		self.name = ""
 		self.species = ""
@@ -113,7 +113,7 @@ class RainbowTrout:
 class Seahorse:
 	def __init__(self):
 		# no specific details by default
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.swimming = True
 		self.name = ""
 		self.species = ""
@@ -121,7 +121,7 @@ class Seahorse:
 class Piranha:
 	def __init__(self):
 		# no specific details by default
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.swimming = True
 		self.name = ""
 		self.species = ""
