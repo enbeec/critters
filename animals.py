@@ -4,14 +4,14 @@ from datetime import date
 
 class Alpaca:
 	def __init__(self, name, species):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
 
 class Jackass:
 	def __init__(self, name, species):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
@@ -19,21 +19,21 @@ class Jackass:
 
 class Pony:
 	def __init__(self, name, species):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
 
 class Goat:
 	def __init__(self, name, species):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
 
 class Hedgehog:
 	def __init__(self, name, species):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.requiredSpeed = "Fast"
 		self.name = name
@@ -43,35 +43,35 @@ class Hedgehog:
 
 class GiantSnail:
 	def __init__(self, name, species):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
 
 class Worm:
 	def __init__(self, name, species):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
 
 class Snake:
 	def __init__(self, name, species):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
 
 class LeglessLizard:
 	def __init__(self, name, species):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
 
 class MysteriousSlime:
 	def __init__(self, name):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = "UNKNOWN" 
@@ -80,35 +80,35 @@ class MysteriousSlime:
 
 class SpottedEel:
 	def __init__(self, name, species):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
 
 class Koi:
 	def __init__(self, name, species):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
 
 class Trout:
 	def __init__(self, name, species):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
 
 class Seahorse:
 	def __init__(self, name, species):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
 
 class Piranha:
 	def __init__(self, name, species):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
