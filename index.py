@@ -1,6 +1,16 @@
 from walking_animals import Alpaca, Pony, Goat, Jackass, Hedgehog
-from animals import SpottedEel, Koi, Trout, Seahorse, Piranha
-from slithering_animals import GiantSnail, Worm, Snake, LeglessLizard, MysteriousSlime
+from animals import ( 
+	SpottedEel, 
+	Koi, 
+	Trout, 
+	Seahorse, 
+	Piranha, 
+	GiantSnail, 
+	Worm, 
+	Snake, 
+	LeglessLizard, 
+	MysteriousSlime 
+	)
 from attractions import PettingZoo, SnakePit, Wetlands
 
 
@@ -15,9 +25,10 @@ varmint_village.animals.append(peter)
 gilbert = Goat("Gilbert", "mountain goat", "literally anything", "afternoon")
 varmint_village.animals.append(gilbert)
 
-greg = GiantSnail("Greg", "big ass snail", "leaves and shit like that")
+greg = GiantSnail("Greg", "big ass snail", "leaves and shit like that", 234567)
 belly_bay.animals.append(greg)
-walden = Worm("Walden", "earthworm", "")
+walden = Worm("Walden", "earthworm", "dirt", 234568)
+belly_bay.animals.append(walden)
 
 sally = SpottedEel("Sally", "teal spotted eel", "tiny crabs", 345678)
 sunny_shores.animals.append(sally)
