@@ -2,7 +2,7 @@ from datetime import date
 
 class Alpaca:
 	def __init__(self, name, species, shift = None):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
@@ -11,7 +11,7 @@ class Alpaca:
 
 class Jackass:
 	def __init__(self, name, species, shift = None):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
@@ -21,7 +21,7 @@ class Jackass:
 
 class Pony:
 	def __init__(self, name, species, shift = None):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
@@ -30,7 +30,7 @@ class Pony:
 
 class Goat:
 	def __init__(self, name, species, shift = None):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.name = name
 		self.species = species
@@ -39,7 +39,7 @@ class Goat:
 
 class Hedgehog:
 	def __init__(self, name, species, shift = None):
-		self.date_added = date.Today()
+		self.date_added = date.today()
 		self.walking = True
 		self.requiredSpeed = "Fast"
 		self.name = name
