@@ -1,7 +1,7 @@
 from datetime import date
 
 class Alpaca:
-	def __init__(self, name, species, shift, food):
+	def __init__(self, name, species, food, shift = None):
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -17,7 +17,7 @@ class Alpaca:
 		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
 class Jackass:
-	def __init__(self, name, species, shift, food):
+	def __init__(self, name, species, food, shift = None):
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -33,7 +33,7 @@ class Jackass:
 		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
 class Pony:
-	def __init__(self, name, species, shift, food):
+	def __init__(self, name, species, food, shift = None):
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -49,7 +49,7 @@ class Pony:
 		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
 class Goat:
-	def __init__(self, name, species, shift, food):
+	def __init__(self, name, species, food, shift = None):
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -65,7 +65,7 @@ class Goat:
 		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
 class Hedgehog:
-	def __init__(self, name, species, shift, food):
+	def __init__(self, name, species, food, shift = None):
 		self.date_added = date.Today()
 		self.walking = True
 		self.requiredSpeed = "Fast"
