@@ -4,7 +4,6 @@ from datetime import date
 
 class Alpaca:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -12,7 +11,6 @@ class Alpaca:
 
 class Jackass:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -21,7 +19,6 @@ class Jackass:
 
 class Pony:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -29,7 +26,6 @@ class Pony:
 
 class Goat:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -37,7 +33,6 @@ class Goat:
 
 class Hedgehog:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.requiredSpeed = "Fast"
@@ -48,7 +43,6 @@ class Hedgehog:
 
 class GiantSnail:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -56,7 +50,6 @@ class GiantSnail:
 
 class Worm:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -64,7 +57,6 @@ class Worm:
 
 class Snake:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -72,7 +64,6 @@ class Snake:
 
 class LeglessLizard:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -80,7 +71,6 @@ class LeglessLizard:
 
 class MysteriousSlime:
 	def __init__(self, name):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -90,7 +80,6 @@ class MysteriousSlime:
 
 class SpottedEel:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -98,7 +87,6 @@ class SpottedEel:
 
 class Koi:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -106,7 +94,6 @@ class Koi:
 
 class Trout:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -114,7 +101,6 @@ class Trout:
 
 class Seahorse:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
@@ -122,7 +108,6 @@ class Seahorse:
 
 class Piranha:
 	def __init__(self, name, species):
-		# no specific details by default
 		self.date_added = date.Today()
 		self.walking = True
 		self.name = name
