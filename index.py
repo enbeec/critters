@@ -1,5 +1,5 @@
 from walking_animals import Alpaca, Pony, Goat, Jackass, Hedgehog
-from swimming_animals import SpottedEel, Koi, Trout, Seahorse, Piranha
+from animals import SpottedEel, Koi, Trout, Seahorse, Piranha
 from slithering_animals import GiantSnail, Worm, Snake, LeglessLizard, MysteriousSlime
 from attractions import PettingZoo, SnakePit, Wetlands
 
@@ -19,7 +19,7 @@ greg = GiantSnail("Greg", "big ass snail", "leaves and shit like that")
 belly_bay.animals.append(greg)
 walden = Worm("Walden", "earthworm", "")
 
-sally = SpottedEel("Sally", "teal spotted eel", "tiny crabs")
+sally = SpottedEel("Sally", "teal spotted eel", "tiny crabs", 345678)
 sunny_shores.animals.append(sally)
 
 # we don't have a list of attractions to iterate so we just create one real quick
