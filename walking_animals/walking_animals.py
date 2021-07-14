@@ -21,6 +21,8 @@ class Jackass:
 		# shift defaults to "unassigned"
 		self.shift = shift or "unassigned"
 
+	def feed(self):
+		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
 class Pony:
 	def __init__(self, name, species, shift):
@@ -31,6 +33,9 @@ class Pony:
 		# shift defaults to "unassigned"
 		self.shift = shift or "unassigned"
 
+	def feed(self):
+		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+
 class Goat:
 	def __init__(self, name, species, shift):
 		self.date_added = date.Today()
@@ -39,6 +44,9 @@ class Goat:
 		self.species = species
 		# shift defaults to "unassigned"
 		self.shift = shift or "unassigned"
+
+	def feed(self):
+		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
 class Hedgehog:
 	def __init__(self, name, species, shift):
@@ -49,3 +57,6 @@ class Hedgehog:
 		self.species = species
 		# shift defaults to "unassigned"
 		self.shift = shift or "unassigned"
+
+	def feed(self):
+		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
