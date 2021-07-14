@@ -8,6 +8,9 @@ class GiantSnail:
 		self.species = species
 		self.food = food
 
+	def __str__(self):
+		return f'{self.name} is a {self.species}'
+
 	def feed(self):
 		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
@@ -18,6 +21,9 @@ class Worm:
 		self.name = name
 		self.species = species
 		self.food = food
+
+	def __str__(self):
+		return f'{self.name} is a {self.species}'
 
 	def feed(self):
 		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
@@ -30,6 +36,9 @@ class Snake:
 		self.species = species
 		self.food = food
 
+	def __str__(self):
+		return f'{self.name} is a {self.species}'
+
 	def feed(self):
 		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
@@ -41,6 +50,9 @@ class LeglessLizard:
 		self.species = species
 		self.food = food
 
+	def __str__(self):
+		return f'{self.name} is a {self.species}'
+
 	def feed(self):
 		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
@@ -51,6 +63,9 @@ class MysteriousSlime:
 		self.name = name
 		self.species = "UNKNOWN" 
 		self.food = food
+
+	def __str__(self):
+		return f'{self.name} is a {self.species}'
 
 	def feed(self):
 		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')

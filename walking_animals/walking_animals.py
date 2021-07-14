@@ -10,6 +10,9 @@ class Alpaca:
 		self.shift = shift or "unassigned"
 		self.food = food
 
+	def __str__(self):
+		return f'{self.name} is a {self.species}'
+
 	def feed(self):
 		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
@@ -22,6 +25,9 @@ class Jackass:
 		# shift defaults to "unassigned"
 		self.shift = shift or "unassigned"
 		self.food = food
+
+	def __str__(self):
+		return f'{self.name} is a {self.species}'
 
 	def feed(self):
 		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
@@ -36,6 +42,9 @@ class Pony:
 		self.shift = shift or "unassigned"
 		self.food = food
 
+	def __str__(self):
+		return f'{self.name} is a {self.species}'
+
 	def feed(self):
 		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
@@ -48,6 +57,9 @@ class Goat:
 		# shift defaults to "unassigned"
 		self.shift = shift or "unassigned"
 		self.food = food
+
+	def __str__(self):
+		return f'{self.name} is a {self.species}'
 
 	def feed(self):
 		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
@@ -62,6 +74,9 @@ class Hedgehog:
 		# shift defaults to "unassigned"
 		self.shift = shift or "unassigned"
 		self.food = food
+
+	def __str__(self):
+		return f'{self.name} is a {self.species}'
 
 	def feed(self):
 		print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
