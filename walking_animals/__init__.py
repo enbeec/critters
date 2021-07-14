@@ -1,1 +1,0 @@
-from .walking_animals import Alpaca, Pony, Goat, Jackass, Hedgehog

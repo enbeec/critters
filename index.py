@@ -1,5 +1,9 @@
-from walking_animals import Alpaca, Pony, Goat, Jackass, Hedgehog
 from animals import ( 
+	Alpaca, 
+	Pony, 
+	Goat, 
+	Jackass, 
+	Hedgehog,
 	SpottedEel, 
 	Koi, 
 	Trout, 
