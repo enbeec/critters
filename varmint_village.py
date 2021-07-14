@@ -10,3 +10,10 @@ class PettingZoo:
 		self.animals = list()
 
 vv = PettingZoo("Varmint Village")
+
+# let's get some crowd pleasers in there
+alfie = Alpaca("Alfie", "Huacaya Alpaca", "alpaca feed", "morning")
+vv.animals.append(alfie)
+
+for animal in vv.animals:
+	print(f'You can find {animal.name} the {animal.species} in {vv.attraction_name}')
